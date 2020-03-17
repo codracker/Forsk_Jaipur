@@ -1,0 +1,25 @@
+Problem Statement:
+    Remove all the vowels from the list of states  
+Hint: 
+    Use nested for loops and while
+Sample Input:
+    state_name = [ 'Alabama', 'California', 'Oklahoma', 'Florida']
+Sample Output:
+    ['lbm', 'clfrn', 'klhm', 'flrd'] 
+    
+    
+    
+Code
+# -*- coding: utf-8 -*-
+"""
+@author: Muskaan Jain
+"""
+str = input("Enter Your String:")
+str2=""
+for i in str:
+    if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):
+        pass
+    else:
+        str2+=i
+str = str2
+print(str)
