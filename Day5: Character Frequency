@@ -1,0 +1,22 @@
+Problem Statement:
+    This program accepts a string from User and counts the number of characters 
+    (character frequency) in the input string. 
+
+Sample Input:
+    www.google.com
+Sample Output:
+    {'c': 1, 'e': 1, 'g': 2, 'm': 1, 'l': 1, 'o': 3, '.': 2, 'w': 3}
+""" 
+
+Code
+# -*- coding: utf-8 -*-
+"""
+
+
+@author: Muskaan Jain
+"""
+
+from collections import Counter
+input_string = "www.google.com"
+frequency = Counter(input_string)
+print ("Per character frequency in '{}' is :\n {}".format(input_string, str(frequency)))
