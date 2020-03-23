@@ -15,7 +15,7 @@ Make an enumerated variable type to store choices.
 Code
 from random import randint
 fun=["Rock","Paper","Scissors"]
-computer=fun[randint(0,2)]
+computer=fun[randint(1,3)]
 player = False
 while player == False:
     player = input(" Rock, Paper, Scissors ?")
@@ -40,4 +40,4 @@ while player == False:
         print("That's not a valid play.Check your Input!")
    
     player = False
-    computer = fun[randint(0,2)]
+    computer = fun[randint(1,3)]
